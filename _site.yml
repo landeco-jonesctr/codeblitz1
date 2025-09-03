@@ -1,6 +1,7 @@
-name: "landeco-field-sites"
+name: landeco-field-sites
+output_dir: docs
 output:
-  html-document:
+  html_document:
     theme: flatly
     highlight: textmate
 navbar:
@@ -10,4 +11,3 @@ navbar:
     href: index.html
   - text: "Example"
     href: example.html
-output_dir:"."
