@@ -1,0 +1,13 @@
+name: landeco-field-sites
+output:
+  html-document:
+    theme: flatly
+    highlight: textmate
+navbar:
+  title: landeco's favorite field sites
+  left:
+  - text: Home
+    href: index.html
+  - text: Example
+    href: example.html
+output_dir:"."

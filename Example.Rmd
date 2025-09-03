@@ -1,0 +1,37 @@
+---
+title: "Example"
+output: html_document
+date: "2025-09-03"
+---
+
+# Khanh
+
+## Biography
+
+I am a Geospatial Analyst in the Landscape Ecology lab.
+
+## Favorite field site
+
+Bartlett Experimental Forest
+
+## Photo gallery
+
+![*Source: NEON*](https://www.neonscience.org/sites/default/files/styles/he/public/image-content-images/48788118261_86eeb0f101_o.jpg?h=d1cb525d&itok=fEZ_ELxH)
+
+![*Source: UNH Extension*](https://extension.unh.edu/sites/default/files/styles/max_width_480px/public/media/2024-07/forest-fall-bartlett-experimental-forest_arsenault-3.jpg?itok=inKA8ngY)
+
+## Map of field site
+
+```{r}
+library(leaflet)
+
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Barlett Experimental Forest")
+```
+
+## Resources
+
+[USDA Forest Service Northern Research Station](https://research.fs.usda.gov/nrs/forestsandranges/locations/bartlett)
+
+[NEON Field Site](https://www.neonscience.org/field-sites/bart)
