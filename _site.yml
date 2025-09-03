@@ -10,4 +10,4 @@ navbar:
   - text: "Home"
     href: index.html
   - text: "Example"
-    href: example.html
+    href: Example.html
