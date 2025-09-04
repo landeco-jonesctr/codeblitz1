@@ -92,9 +92,9 @@ The instructions are intentionally vague as this is the first time
 trying this! We'll try to answer specific questions in person but you
 should
 
-1.  Create a new **branch** with your name (e.g., `jeff-profile`)
-2.  **Clone** the code blitz repository and Open the template assigned
+1.  **Clone** the code blitz repository and Open the template assigned
     for you
+2.  *Create a new branch* with your name (e.g., `jeff-profile`)
 3.  Edit the assigned markdown (`.md`) document to make a profile.
 4.  Make a profile of your **favorite field site**, vacation spot, or
     hiking trail. The important part is that its a real place that you
