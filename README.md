@@ -62,7 +62,7 @@ The instructions are intentionally vague as this is the first time trying this! 
 4.  Make a profile of your **favorite field site**, vacation spot, or hiking trail. The important part is that its a real place that you know well and possibly have photos of. But this is all just practice, so whatever you want is fine. Could be imaginary I suppose.
 5.  **Using the Markdown language**, fill in the fill in the requested information about your selected site. You'll need to insert photos, captions, format text, links, bullets etc. See here for a [Markdown Syntax Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 6.  You will see a template website where you'll fill out the following sections. Each section denotes header levels for your profile. Fill out each section, using markdown syntax to add complexity complexity.
-7.  <code style="color:red">[**You will include some some false information and errors in your profile.**]</code> This is so that we can collaboratively edit later!
+7.  <code style="color:red">**You will include some some false information and errors in your profile.**</code> This is so that we can collaboratively edit later!
 8.  When you are finished, be sure to **Commit the changes to your branch**
 9.  Open a pull request from your branch to `main` which we will merge
 10. Once merged, your profile will eventually appear here: <https://landeco-jonesctr.github.io/codeblitz1/> (after Khanh updates the yml file and knits the website together).
@@ -85,7 +85,7 @@ Your name, duh, note the **Header level 1**, indicated by a single `#`
 -   Note the **Header level 2** indicated by the double `##`.
 -   Write a short 100 word biography about yourself, background, and hobbies.
 -   Insert a photo you may have to upload it to the `img/` directory or link directly from a webpage. Specify a caption and adjust the size of the image
--   <code style="color:red">[Insert one *obviously false* statement about you in the biography]</code>.
+-   $${\color{red}Insert one *obviously false* statement about you in the biography]$$.
 
 ## `## Favorite field site`
 
