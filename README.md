@@ -64,8 +64,8 @@ The instructions are intentionally vague as this is the first time trying this! 
 6.  You will see a template website where you'll fill out the following sections. Each section denotes header levels for your profile. Fill out each section, using markdown syntax to add complexity complexity.
 7.  [**You will include some some false information and errors in your profile.**]{style="color:red"} This is so that we can collaboratively edit later!
 8.  When you are finished, be sure to **Commit the changes to your branch**
-9.  Open a pull request from your branch to `main`, which we will merge after **editing**
-10. Once merged, your profile will appear here: <https://landeco-jonesctr.github.io/codeblitz1/>
+9.  Open a pull request from your branch to `main` which we will merge
+10. Once merged, your profile will eventually appear here: <https://landeco-jonesctr.github.io/codeblitz1/> (after Khanh updates the yml file and knits the website together).
 
 ```         
 # Name
@@ -135,15 +135,15 @@ myFunction = function(dbh, plot_area) {
 
 ## Instructions -- Homework Part 2:
 
-**Within one week of today's exercise** complete the followign tasks with an assigned partner.
+**Within one week of today's exercise** complete the following tasks with an assigned partner.
 
 Now that you’ve practiced committing to your own branch, we will try a common workflow: **pull requests** (PRs). A pull request is how you propose changes to a shared repository so others can review and approve them before merging back into the main branch.
 
--   Fork the repository, and clone your fork, make a new branch
+-   Clone the repository and make a new branch
 -   Correct the false information in your partners `Biography`
 -   Correct the typo in your partners bulleted list in `Favorite field site`
 -   Correct the broken link in the `Photo gallery`.
 -   Commit your changes and push the repo back to Github
 -   Test their `R` code for basal area in a separate window. Does it work for you? If not, suggest an edit
--   Open a pull request. Go to your fork on GitHub. You’ll see a banner prompting you to “Compare & pull request.” Click it. Write a short description of your change and submit the PR back to the main lab repo.
--   Review someone elses PR. Go to the lab repo \> Pull Requests tab. Review your partners PR to your profile, read it, and leave a short comment.
+-   Open a pull request on GitHub. You’ll see a banner prompting you to “Compare & pull request.” Click it. Write a short description of your change and submit the PR back to the main lab repo.
+-   Review someone else's PR. Go to the lab repo \> Pull Requests tab. Review your partners PR to your profile, read it, and leave a short comment.
