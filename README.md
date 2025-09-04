@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # `codeblitz001`: Get to know your new labmate, `Github`
 
 ## Background
