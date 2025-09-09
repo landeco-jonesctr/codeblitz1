@@ -3,3 +3,34 @@ title: "nicole"
 output: html_document
 ---
 
+# Nicole Zampieri
+
+## Biography
+
+I am a Postdoctoral Research Associate in the Landscape Ecology Lab! I am starting as an Assistant Professor of Biology at UCF later this year. I am a biogeographer and dendroecologist studying growth and demography of savanna trees. Specifically, I study how abiotic factors, like fire and hurricanes, and biotic factors, like competition and facilitation, interact to affect longleaf pine (Pinus palustris) growth and ecology. My hobbies include werrking out, baking, playing video games, drinking beer, and spending time with my partner and our two pets, Cloud, a 100 lb Labrador, and Toby, a tuxedo cat. I am an Olympic gold heavy weight champion. 
+
+## Favorite field site
+
+"Ann's Bog" in the Apalachicola National Forest
+
+## Photo gallery
+
+![*Source: NEON*](https://www.neonscience.org/sites/default/files/styles/he/public/image-content-images/48788118261_86eeb0f101_o.jpg?h=d1cb525d&itok=fEZ_ELxH)
+
+![*Source: UNH Extension*](https://extension.unh.edu/sites/default/files/styles/max_width_480px/public/media/2024-07/forest-fall-bartlett-experimental-forest_arsenault-3.jpg?itok=inKA8ngY)
+
+## Map of field site
+
+```{r warning=FALSE}
+library(leaflet)
+
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Barlett Experimental Forest")
+```
+
+## Resources
+
+[USDA Forest Service Northern Research Station](https://research.fs.usda.gov/nrs/forestsandranges/locations/bartlett)
+
+[NEON Field Site](https://www.neonscience.org/field-sites/bart)
