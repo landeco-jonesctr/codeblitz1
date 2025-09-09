@@ -5,7 +5,7 @@ output: html_document
 
 ## Biography
 
-I am a Geospatial Analyst in the Landscape Ecology lab.
+I am a Geospatial Analyst in the Landscape Ecology lab!
 
 ## Favorite field site
 
