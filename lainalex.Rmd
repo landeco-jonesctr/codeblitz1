@@ -16,7 +16,7 @@ library(knitr)
 
 My name is Lain Alexander and I am the IT Manager of The Jones Center at Ichauway. 
 
-![](~/img/chan_lain.jpg){width=30%}
+![](img\chan_lain.jpg){width=30%}
 
 ## Favorite Field Site 
 Ichauway
