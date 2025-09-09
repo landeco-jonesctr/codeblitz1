@@ -5,18 +5,12 @@
 ##output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Lain Alexander
+
 ## Biography
 
-> blockquote test
-
-## Favorite Field Site
-## Photo Gallery
-## Resources
+My name is Lain Alexander and I am the IT Manager of The Jones Center at Ichauway. 
+## Favorite Field Site 
+## Photo Gallery 
+## Resources 
 ## Map of Field Site
-
-
