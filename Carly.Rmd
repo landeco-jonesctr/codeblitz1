@@ -1,0 +1,28 @@
+---
+title: "Carly's Favorite Field Site"
+author: "Carly"
+date: "2025-09-09"
+output: html_document
+---
+
+# Name
+Carly Ramacher
+
+## Biography
+I am a seasonal technician in the Landscape Ecology lab at the Jones Center. Prior to this position I was an undergraduate studying Environmental Biology at Washington University in St. Louis. I also worked at the school's field station, Tyson Research Center, as a field technician censusing trees.
+
+## Favorite field site
+Tyson Research Center
+
+## Photo gallery
+!(https://jonathanmyers.smugmug.com/Ozarks/i-RjNsk2k/A)
+!(https://jonathanmyers.smugmug.com/Ozarks/i-Wtk8tJw)
+!(https://jonathanmyers.smugmug.com/Ozarks/i-txncrPM)
+!(https://jonathanmyers.smugmug.com/Ozarks/i-rfTTQZv/A)
+
+## Resources
+!(https://tyson.wustl.edu/)
+!(https://myersecologylab.com/projects/)
+
+## Map of field site
+!(https://myersecologylab.com/wp-content/uploads/2019/11/Map_ForestGEO_TRCP_20191113-e1573688769717-500174_1080x675.jpg)
