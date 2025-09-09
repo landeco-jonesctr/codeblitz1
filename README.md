@@ -48,7 +48,7 @@ We'll all complete the work, but let's still work in groups so that you have a g
 |:----------|:----------|:---------|:---------|:------------|:----------|
 | Ferns     | Room 1    | Jeff     | Leah     | Latonya     | Jingting? |
 | Saplings  | Room 2    | Khanh    | Tanner   | Carly       | Nathan    |
-| Rhizomes  | Room 3    | Nicole   | Morne    | Ramp Fellow | Lain      |
+| Rhizomes  | Room 3    | Nicole   | Morne    | Tristan     | Lain      |
 
 ## Instructions Part 1:
 
