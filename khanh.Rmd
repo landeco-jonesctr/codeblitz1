@@ -1,34 +1,58 @@
 ---
-title: "Khanh's favorite field site"
+title: "Jingting's US NP top picks"
 output: html_document
 ---
 
 ## Biography
 
-I am a Geospatial Analyst in the Landscape Ecology lab.
+Since 2024, Dr. Jingting Huang has been a Postdoctoral Associate in the Engineering Environmental Equity (E^3^) Lab at the University of Georgia. In her free time, she enjoys photography in US national parks :deciduous_tree::camera: and has checked out 20 out of 63 national parks:heavy_check_mark:
 
-## Favorite field site
+## Favorite US NP list
 
-Bartlett Experimental Forest
+Glacier NP
+Yellowstone NP
+Acadia NP
+Zions NP
+White Sands NP
+Grand Teton NP
 
 ## Photo gallery
 
-![*Source: NEON*](https://www.neonscience.org/sites/default/files/styles/he/public/image-content-images/48788118261_86eeb0f101_o.jpg?h=d1cb525d&itok=fEZ_ELxH)
+![*Source: Glacier NP*](https://www.shutterbug.com/images/styles/960-wide/public/photo_post/[uid]/GoatLakeEdit22017_1.jpg)
 
-![*Source: UNH Extension*](https://extension.unh.edu/sites/default/files/styles/max_width_480px/public/media/2024-07/forest-fall-bartlett-experimental-forest_arsenault-3.jpg?itok=inKA8ngY)
+![*Source: Yellowstone NP*](https://a.cdn-hotels.com/gdcs/production147/d1071/bebd0f9e-892b-4643-a23b-92af0ee3ae31.jpg)
+![*Source: Acadia NP*](https://morethanjustparks.com/wp-content/uploads/2020/10/6V9A9031.jpg)
+![*Source: Zion NP*](https://visitutahkenticoprod.blob.core.windows.net/cmsroot/visitutah/media/site-assets/three-season-photography/mighty-5/zion/zion-national-park_the-narrows_istock.jpg)
 
-## Map of field site
+![*Source: White Sands NP*](https://goeddelgallery.com/wp-content/uploads/2021/04/White-Sands-National-Monument-sunrise-mountains.jpg)
+
+![*Source: Grand Teton NP*](https://eternalarrival.com/wp-content/uploads/2021/01/fall-grand-teton-np-shutterstock_1390678799-1.jpg)
+
+## Map of US NPs
 
 ```{r warning=FALSE}
 library(leaflet)
 
 leaflet() %>% 
   addTiles() %>%     
-  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Barlett Experimental Forest")
+  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Glacier NP")
+```
+
+```{r warning=FALSE}
+library(leaflet)
+
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -113.7183, lat = 48.7596, popup = "Glacier NP") %>%
+  addMarkers(lng = -110.5885, lat = 44.4280, popup = "Yellowstone NP") %>%
+  addMarkers(lng = -68.2733, lat = 44.3386, popup = "Acadia NP") %>%
+  addMarkers(lng = -113.0263, lat = 37.2982, popup = "Zion NP") %>%
+  addMarkers(lng = -106.1709, lat = 32.7791, popup = "White Sands NP") %>%
+  addMarkers(lng = -110.8000, lat = 43.7904, popup = "Grand Teton NP")
 ```
 
 ## Resources
 
-[USDA Forest Service Northern Research Station](https://research.fs.usda.gov/nrs/forestsandranges/locations/bartlett)
+[National Park Service](https://www.nps.gov)
 
-[NEON Field Site](https://www.neonscience.org/field-sites/bart)
+[AllTrails](https://www.alltrails.com)
