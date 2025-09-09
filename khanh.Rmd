@@ -32,14 +32,6 @@ library(leaflet)
 
 leaflet() %>% 
   addTiles() %>%     
-  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Glacier NP")
-```
-
-```{r warning=FALSE}
-library(leaflet)
-
-leaflet() %>% 
-  addTiles() %>%     
   addMarkers(lng = -113.7183, lat = 48.7596, popup = "Glacier NP") %>%
   addMarkers(lng = -110.5885, lat = 44.4280, popup = "Yellowstone NP") %>%
   addMarkers(lng = -68.2733, lat = 44.3386, popup = "Acadia NP") %>%
