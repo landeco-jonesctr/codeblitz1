@@ -46,9 +46,9 @@ We'll all complete the work, but let's still work in groups so that you have a g
 
 | Team name | Room Name | Person 1 | Person 2 | Person 3    | Person 4  |
 |:----------|:----------|:---------|:---------|:------------|:----------|
-| Ferns     | Room 1    | Jeff     | Leah     | Latonya     | Jingting? |
-| Saplings  | Room 2    | Khanh    | Tanner   | Carly       | Nathan    |
-| Rhizomes  | Room 3    | Nicole   | Morne    | Tristan     | Lain      |
+| Ferns     | Room 1    | Jeff     | Tristan     | ~~Latonya~~ | Jingting  |
+| Saplings  | Room 2    | Khanh    | Tanner   | Carly       | ~~Nathan~~   |
+| Rhizomes  | Room 3    | Nicole   | Morne    |  Leah    | Lain      |
 
 ## Instructions Part 1:
 
