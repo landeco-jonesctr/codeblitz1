@@ -1,0 +1,22 @@
+---
+##title: "lainalex"
+##author: "Lain Alexander"
+##date: "2025-09-09"
+##output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Lain Alexander
+## Biography
+
+> blockquote test
+
+## Favorite Field Site
+## Photo Gallery
+## Resources
+## Map of Field Site
+
+
