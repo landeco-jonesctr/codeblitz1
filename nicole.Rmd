@@ -1,0 +1,37 @@
+---
+title: "nicole"
+output: html_document
+---
+
+# Nicole Zampieri
+
+## Biography
+
+I am a Postdoctoral Research Associate in the Landscape Ecology Lab! I am starting as an Assistant Professor of Biology at UCF later this year. I am a biogeographer and dendroecologist studying growth and demography of savanna trees. Specifically, I study how abiotic factors, like fire and hurricanes, and biotic factors, like competition and facilitation, interact to affect longleaf pine (*Pinus palustris*) growth and ecology. My hobbies include werrking out, baking, playing video games, drinking beer, and spending time with my partner and our two pets, Cloud, a 100 lb Labrador, and Toby, a tuxedo cat. I am an Olympic gold heavy weight champion. 
+
+## Favorite field site
+
+- My favorite field site is called "Ann's Bog" in the Apalachicola National Forrrrest
+- This site is full of rare plants like orchids and carnivorous pitcher plants
+- It is named after an ecologist who popularized it, Ann Johnson of the Florida Natural Areas Inventory
+- It has a funky cypress tree in the shape of a lightning bolt, or the letter Z
+
+## Photo gallery
+
+![Rare orchid - *Platanthera cristata*](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/IMG_20200816_130517.jpg)
+![Famous Z shaped cypress](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/IMG_20200816_131429.jpg)
+
+![Post-fire blooms - crow poison](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/PXL_20210328_203004645.jpg)
+
+
+## Map of field site
+
+```{r warning=FALSE}
+library(leaflet)
+
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -84.970426, lat = 30.035306, popup = "Ann's Bog in the ANF")
+
+```
+
