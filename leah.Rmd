@@ -1,37 +1,47 @@
 ---
-title: "Leah's Favorite Field Site"
+title: "My Favorite Field Site"
 author: "Leah"
 date: "2025-09-09"
 output: html_document
 ---
 
+# Leah Andino
+
 ## Biography
 
-I am a new seasonal technician for the Landscape Ecology Lab. I enjoy hanging out in 
-all kinds of forests and streams, hands on activities like sewing/crafting/gardening,
+I am a new seasonal technician for the Landscape Ecology Lab. I'm from Southern 
+California and grew up seeing the outdoors as a bit icky with too many bugs. As an older teen,
+something changed and forests suddenly became interesting since they were unfamiliar to me and I was used
+to the shrubby landscapes of our Mediterranean climate. With my new interest, I went on to major in Geography/Environmental 
+Studies and earn my master of Forest Science.  
+Lately, I have been enjoying hanging out in all kinds of forests and streams, hands on activities like sewing/crafting/gardening,
 and wrestling my cat, Gussie.
 
 ## Favorite field site
 
-Luquillo Experimental Forest
+Luquillo Experimental Forest, *Puerto Rico*   
+- Subtropical moist to subtropical rain forest  
+- Mountainous landscape: 1,000-meter elevation gradient  
+- Field site has the same boundary as the national forest (El Yunque National Forest)  
+- Largest tropical forest in the experimintal forest and range system: >28k acres   
+- Site has been studied for over 100 years  
+- *Fun fact*: I found a transparent semi-slug in the forest that flattens out snd also has slug shape  
 
 ## Photo gallery
 
-![*Source: NSF LTER Network*](https://photos.smugmug.com/LTER-Site-Photos/LUQ-LTER/i-rFH8qzj/0/LzZnfcvRtrP32Dv4HNdQLqSXkS74f98P8S6s32xfP/L/luq-0004-L.jpg)
+![Field Site *Source: NSF LTER Network*](https://photos.smugmug.com/LTER-Site-Photos/LUQ-LTER/i-rFH8qzj/0/LzZnfcvRtrP32Dv4HNdQLqSXkS74f98P8S6s32xfP/L/luq-0004-L.jpg)
 
-![El Verde Field Station *Source: Leah Andino*](H:/codeblitz/codeblitz1/Image (12).jpg)
+![Favorite swimming spot at Luquillo *Source: Leah Andino*](H:/codeblitz/codeblitz1/Image (13).jpg)
 
-![Stream swimming spot *Source: Leah Andino*](H:/codeblitz/codeblitz1/Image (13).jpg)
-
-![Puerto Rican Semi-Slug  *Source: NSF LTER Netbarkbark*](https://photos.smugmug.com/Photo-Contests/2024-LTER-Photo-Contest/Small-Details/i-LXwB7mX/0/MzfBmqQf3WHL8w4JdPQFbVDDH5PCJrLZPKc3CB5mJ/L/Ziemke_Clayton_LUQ_USM_cat3_4%20-%20Clayton%20Ziemke-L.jpg)
+![Puerto Rican Semi-Slug  *Source: NSF LTER Network*](https://photos.smugmug.com/Photo-Contests/2024-LTER-Photo-Contest/Small-Details/i-LXwB7mX/0/MzfBmqQf3WHL8w4JdPQFbVDDH5PCJrLZPKc3CB5mJ/L/Ziemke_Clayton_LUQ_USM_cat3_4%20-%20Clayton%20Ziemke-L.kpg)
 
 
-## Map of Field Bite + Station
+## Map of Field Site + Station
 
-```{r warning=FALSE, echo = FALSE}
+```{r warning=FALSE}
 library(leaflet)
 
-leaflet() %>% 
+leaflet() %>%
   addTiles() %>%     
   addMarkers(lng = -65.81992899709486, lat = 18.32169436202568, popup = "El Verde Field Station") %>%
   addMarkers(lng = -65.80131608201233, lat = 18.29935172350278, popup = "El Yunque National Forest")
@@ -39,4 +49,44 @@ leaflet() %>%
 
 ## Resources
 
-[Ichauway LTER Network Site](https://lternet.edu/site/luquillo-lter/)
+[Luquillo Experimental Forest History + Background](https://research.fs.usda.gov/iitf/forestsandranges/locations/lef)   
+ 
+[LTER Network Site](https://lternet.edu/site/luquillo-lter/)  
+
+[International Institute of Tropical Forestry Projects](https://research.fs.usda.gov/iitf/projects)  
+
+[Calculating Basal Area Textbook](https://courses.washington.edu/esrm304a/lectures/Turnblom/ch.11.PDF)
+
+[Calculating Basal Area Lesson](https://www.ruraltech.org/virtual_cruiser/lessons/lesson_10/lesson_10_pdf.pdf)  
+
+
+## Code
+```{r Basal Area}
+#test data
+dbh <- c(35, 23, 12, NA, 8) # in cm
+plot_area <- 0.1 #in ha
+
+#my function
+my_ba <- function(dbh, dbhunits = "cm", plotsize, standsize) {
+  dbh <- as.vector(na.omit(dbh)) #drop dbh NAs
+  expfact <- standsize / plotsize #plotsize + standsize must be same units
+ 
+   #diff constants depending on units
+  if(dbhunits == "cm") {
+    constant <- pi / (4 * 10000)
+    ba <- constant * (dbh^2)
+    baf <- ba * expfact
+    ba_stand <- sum(baf)
+  } else {
+    # if U.S. units
+    constant <- pi / (4 * 144)
+    ba <- constant * (dbh^2)
+    baf <- ba * expfact
+    ba_stand <- sum(baf)
+  }
+  
+  return(ba_stand)
+}
+
+```
+
