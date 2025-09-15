@@ -1,42 +1,42 @@
 ---
-title: "leah"
-author: "leah"
+title: "Leah's Favorite Field Site"
+author: "Leah"
 date: "2025-09-09"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# Name
-Leah Andino
-
 ## Biography
-I'm the research associate for the Forest Landscape Ecology Lab. I am also a single mother to a cat named Asparagus, called Gus for short. 
 
-## Favorite Field Site
+I am a new seasonal technician for the Landscape Ecology Lab. I enjoy hanging out in 
+all kinds of forests and streams, hands on activities like sewing/crafting/gardening,
+and wrestling my cat, Gussie.
 
-## Photo Gallery
+## Favorite field site
+
+Luquillo Experimental Forest
+
+## Photo gallery
+
+![*Source: NSF LTER Network*](https://photos.smugmug.com/LTER-Site-Photos/LUQ-LTER/i-rFH8qzj/0/LzZnfcvRtrP32Dv4HNdQLqSXkS74f98P8S6s32xfP/L/luq-0004-L.jpg)
+
+![El Verde Field Station *Source: Leah Andino*](H:/codeblitz/codeblitz1/Image (12).jpg)
+
+![Stream swimming spot *Source: Leah Andino*](H:/codeblitz/codeblitz1/Image (13).jpg)
+
+![Puerto Rican Semi-Slug  *Source: NSF LTER Netbarkbark*](https://photos.smugmug.com/Photo-Contests/2024-LTER-Photo-Contest/Small-Details/i-LXwB7mX/0/MzfBmqQf3WHL8w4JdPQFbVDDH5PCJrLZPKc3CB5mJ/L/Ziemke_Clayton_LUQ_USM_cat3_4%20-%20Clayton%20Ziemke-L.jpg)
 
 
+## Map of Field Bite + Station
 
-## R Markdown
+```{r warning=FALSE, echo = FALSE}
+library(leaflet)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -65.81992899709486, lat = 18.32169436202568, popup = "El Verde Field Station") %>%
+  addMarkers(lng = -65.80131608201233, lat = 18.29935172350278, popup = "El Yunque National Forest")
 ```
 
-## Including Plots
+## Resources
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+[Ichauway LTER Network Site](https://lternet.edu/site/luquillo-lter/)
