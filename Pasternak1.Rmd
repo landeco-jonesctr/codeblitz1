@@ -5,12 +5,11 @@ output: html_document
 
 ## Biography
 
-#Tristen Pasternak
 I am a RaMP Fellow in the Landscape Ecology Lab! I am NOT from Philadelphia.
 
 ## Favorite field site
 
-One amazing place I'd seen during orientation was the Cahaba River in Alabama. 
+One amazing place I'd seen during orientation was the Cahaba River in Alabama. It is NOT home to the Cahaba Lily.
 
 ## Photo gallery
 
