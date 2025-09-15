@@ -1,0 +1,18 @@
+---
+title: "TW"
+author: "Tanner"
+date: "2025-09-09"
+output: html_document
+---
+
+#Name
+Tanner Warren
+
+##Bio
+A Research Technician in the Landscape Ecology lab specializing in TLS and all associated field work.
+![Tanner in his natural habitat]('https://lab.jonesctr.org/wp-content/uploads/2024/07/DSC6919-1096x1536.jpg')
+
+##Favorite field site
+St. Marks National Wildlife Refuge
+
+This 83,000 acre refuge spans parts of Wakulla, Jefferson, and Taylor counties in Florida. 
