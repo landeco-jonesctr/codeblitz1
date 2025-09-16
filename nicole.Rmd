@@ -18,10 +18,10 @@ I am a Postdoctoral Research Associate in the Landscape Ecology Lab! I am starti
 
 ## Photo gallery
 
-![Rare orchid - *Platanthera cristata*](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/IMG_20200816_130517.jpg)
+![Rare orchid: Crested fringe orchid *Platanthera cristata*](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/IMG_20200816_130517.jpg)
 ![Famous Z shaped cypress](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/IMG_20200816_131429.jpg)
 
-![Post-fire blooms - crow poison](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/PXL_20210328_203004645.jpg)
+![Post-fire blooms: crow poison (*Stenanthium densum*)](https://github.com/landeco-jonesctr/codeblitz1/blob/laneco-nicole/img/Nicole-pics/PXL_20210328_203004645.jpg)
 
 
 ## Map of field site
