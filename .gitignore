@@ -1,4 +1,50 @@
-.Rproj.user
+# RStudio project files
+*.Rproj.user
+
+# R history and workspace
 .Rhistory
 .RData
 .Ruserdata
+
+# R temporary files
+.Rapp.history
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+
+# Compiled objects
+*.o
+*.so
+*.dll
+
+# R Markdown cache and output
+*_cache/
+*_files/
+*.html
+*.pdf
+*.docx
+*.Rmd~
+
+# Packrat (dependency management)
+packrat/lib/
+packrat/src/
+packrat/packrat.lock
+packrat/packrat.opts
+packrat/init.R
+
+# renv (dependency management)
+renv/library/
+renv/staging/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other common temp files
+*.swp
+*.Rproj.user/

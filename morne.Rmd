@@ -1,0 +1,33 @@
+---
+title: "morne-profile"
+output: html_document
+date: "2025-09-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Morné le Roux
+## Biography
+I am a graduate student in the Landscape Ecology Lab! I'm currently a second year MS student at Auburn University, where I am also a part of the Forest Disturbance and Resilience Lab. My research focuses on wind-fire disturbance interactions in longleaf pine savannas. In my free time, I like reading, going to concerts, and spending time outside with my dog, Stella. I am also the U.S. Secretary of Agriculture. 
+
+## Favorite field site
+My favorite field site is the Ichauway Forest Dynamics Plot. Species that can be found there include: 
+* Longleaf pine 
+* Gopher tortoise 
+* Red-cockaded woodflecker 
+
+## Photo gallery
+![Ichauway Forest Dynamics Plot during a prescribed burn (*Source: ForestGeo*)] (https://forestgeo.si.edu/sites/default/files/pxl_20230315_162005091_1.jpg)
+![Longleaf pine (&*Pinus palustris**)](img/morne-pic/IMG_5848.jpg)
+
+## Resources
+[Ichauway-Forest Geo](htps://forestgeo.si.edu/sites/north-america/ichauway)
+[Longleaf Alliance](https://longleafalliance.org/what-is-longleaf/the-tree/)
+
+## Map of field site
+library(leaflet)
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -84.478000000000, lat = 31.269000000000, popup = "Ichauway Forest Dynamics Plot")

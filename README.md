@@ -57,15 +57,51 @@ For this code blitz, we'll each contribute portions of a lab website that featur
 The instructions are intentionally vague as this is the first time trying this! We'll try to answer specific questions in person but you should
 
 1.  **Clone** the code blitz repository and Open the template assigned for you
+
+![](img/clone1.png)
+
+*Click the green **Code** button. In the Local drop-down, copy the HTTPS link.*
+
+![](img/clone2.png)
+
+*In RStudio, choose File/New Project/Version Control/Git. Paste the repo URL and the project directory name will auto-populate. Save the project wherever you usually save your Rprojs.*
+
 2.  *Create a new branch* with your name (e.g., `jeff`)
-3.  Edit the assigned markdown (e.g., `jeff.Rmd`) document to make a profile.
+
+![](img/branch1.PNG)
+
+*Make sure you're in the right Rproj (indicated by the blue R cube at the top right corner). In the Git tab, click on the purple icon to create your branch. Once your branch is created, you should be automatically switched to work on it. Double check to make sure the branch name indicates so.*
+
+![](img/branch2.PNG)
+
+*Name your branch with your name or something we can easily recognize. Don't change anything else.*
+
+3.  Make a new R markdown (e.g., `jeff.Rmd`) document to make a profile.
 4.  Make a profile of your **favorite field site**, vacation spot, or hiking trail. The important part is that its a real place that you know well and possibly have photos of. But this is all just practice, so whatever you want is fine. Could be imaginary I suppose.
 5.  **Using the Markdown language**, fill in the fill in the requested information about your selected site. You'll need to insert photos, captions, format text, links, bullets etc. See here for a [Markdown Syntax Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
-6.  You will see a template website where you'll fill out the following sections. Each section denotes header levels for your profile. Fill out each section, using markdown syntax to add complexity complexity.
-7.  **You will include some some false information and errors in your profile. This is so that we can collaboratively edit later!
+6.  You will see a template Rmd file from Khanh where you can follow along and use as an example. Each section denotes header levels for your profile. Fill out each section, using markdown syntax to add complexity complexity.
+7.  **You will include some some false information and errors in your profile. This is so that we can collaboratively edit later!**
 8.  When you are finished, be sure to **Commit the changes to your branch**
+
+![](img/commit1.PNG)
+
+*Stage your commit by checking the box (1), then click the Commit button*
+
+![](img/commit2.PNG)
+
+*Write the commit message (without a message, the system won't let you commit) (1), click the Commit button (2), then click the Push button (3) to commit the changes from your local to remote repo*
+
 9.  Open a pull request from your branch to `main` which we will merge
-10. Once merged, your profile will eventually appear here: <https://landeco-jonesctr.github.io/codeblitz1/> (after Khanh updates the yml file and knits the website together).
+
+![](img/pr1.PNG)
+
+*After you have successfully committed and pushed, there should be an automatic notification in yellow in GitHub telling you to **Compare & pull request**. Click on it, or manually create a PR by clicking on the **Pull requests** tab above the repo.*
+
+![](img/pr2.PNG)
+
+*Be sure to set **base: main** and **compare: [your branch]**. Option to modify your PR's title and add a description. Click **Create pull request** once you are happy with everything.*
+
+10. **YOU ARE ALL SET FOR NOW!** Once merged, your profile will eventually appear here: <https://landeco-jonesctr.github.io/codeblitz1/> (after Khanh updates the yml file and knits the website together).
 
 ```         
 # Name
@@ -108,7 +144,7 @@ Your name, duh, note the **Header level 1**, indicated by a single `#`
 
 -   Embed a chunk of `R` code that creates a map of your field site.
 
-```{{r warning=FALSE}}
+```{r warning=FALSE}
 library(leaflet)
 leaflet() %>% 
   addTiles() %>%     
@@ -124,9 +160,9 @@ dbh = c(35, 23, 12, NA, 8) # in cm
 plot_area = 0.1 #in ha
 ```
 
--   To display a chunk of `R` code, you can use the following format, offset by three backticks ```` ``` ````
+-   To display a chunk of `R` code, you can use the following format, offset by three backticks ```` ``` ````. (See `khanh.Rmd` for an example of formatting R codes in Rmd.)
 
-```{{r}}
+```{r}
 myFunction = function(dbh, plot_area) {
  #my code
  return(basal_area)

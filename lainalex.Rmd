@@ -1,0 +1,31 @@
+---
+title: "lainalex"
+author: "Lain Alexander"
+date: "2025-09-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(knitr)
+```
+
+# Lain Alexander
+
+## Biography
+
+My name is Lain Alexander and I am the IT Manager of The Jones Center at Ichauway. 
+
+![](img\chan_lain.jpg){width=30%}
+
+## Favorite Field Site 
+Ichauway
+
+## Photo Gallery 
+Add Pictures
+
+## Resources 
+Websites
+
+## Map of Field Site
+Google Map
