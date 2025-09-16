@@ -1,0 +1,34 @@
+---
+title: "nathan"
+author: "Nathan M"
+date: "2025-09-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Nathan Moore
+## Biography
+I am a Ph.D. student in the Forest and Fire Ecology Lab at Auburn University and the Landscape Ecology Lab at the Jones Center at Ichauway, co-advised by Drs. Heather Alexander and Jeffery Cannon. My research examines understory vegetation and fuel dynamics, with broader interests in how disturbances shape ecosystem services. Past work has included soil carbon storage, woody plant encroachment, and pyric herbivory. Outside of research, I enjoy aquaponics and maintaining aquariums. I am also a part owner of the Utah Jazz
+
+
+## Favorite field site
+My favorite field site is Fawn Lake Ranch, in the Nebraska Sandhills. This ranch is a vast 25,800-hectare Turner Institute property of grass-stabilized dunes and sub-irrigated wet meadows. Managed with adaptive bison grazing, it hosts diverse native plants and rich wildlife. The ranch’s contrasting sandy uplands and clay-rich wet meadows create a unique living laboratory for studying natural resource. Its sweeping prairie vistas, dynamic hydrology, and ecological importance make Fawn Lake a standout field site for exploring grassland ecology and climate-mitigation potential.
+
+## Photo gallery
+![Bison herd grazing in wet meadow*)](C:/Users/Nathan/Desktop/landscape.lab/codeblitz1/img/nathan-pics/IMG_3552.jpg)
+
+![Ditch through a wet meadow*)](C:/Users/Nathan/Desktop/landscape.lab/codeblitz1/img/nathan-pics/IMG_5280.jpg)
+
+![Photo of the landscape from the top of an upland dune complex*)](C:/Users/Nathan/Desktop/landscape.lab/codeblitz1/img/nathan-pics/IMG_3730.jpg)
+
+## Map of field site
+library(leaflet)
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng =  -101.905742, lat = 42.498799, popup = "Turner Ranches: Fawn Lake Ranch")
+  
+## Resources
+[Author's photos and personal observations]  
