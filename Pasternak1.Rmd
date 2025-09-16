@@ -3,6 +3,7 @@ title: "Pasternak1"
 output: html_document
 ---
 
+<<<<<<< HEAD
 ## Biography
 
 I am a RaMP Fellow in the Landscape Ecology Lab! I am NOT from Philadelphia.
@@ -42,3 +43,5 @@ Function = function(dbh, plot_area){
 return(basal_area)
 }
 ```
+=======
+>>>>>>> 7e59219f60a2dbfeea4fe65e2495aa5c3429893b
