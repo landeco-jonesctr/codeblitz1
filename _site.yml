@@ -11,3 +11,17 @@ navbar:
     href: index.html
   - text: "Example"
     href: khanh.html
+  - text: "Jeff"
+    href: jeff-profile.html
+  - text: "Jingting"
+    href: jingting.html
+  - text: "Lain"
+    href: lainalex.html
+  - text: "Leah"
+    href: leah.html
+  - text: "Morne"
+    href: morne.html
+  - text: "Nathan"
+    href: nathan.html
+  - text: "Nicole"
+    href: nicole.html
