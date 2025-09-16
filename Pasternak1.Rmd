@@ -1,0 +1,47 @@
+---
+title: "Pasternak1"
+output: html_document
+---
+
+<<<<<<< HEAD
+## Biography
+
+I am a RaMP Fellow in the Landscape Ecology Lab! I am NOT from Philadelphia.
+
+## Favorite field site
+
+One amazing place I'd visited during orientation was the Cahaba River in Alabama. 
+- The Cahaba River is the longest free-flowing river in AL at approx. 200 miles.
+- The Cahaba Rvvr is home to the endangered Cahaba Lily.
+- The River is home to 13 endemic plant and animal species.
+
+
+## Photo gallery
+	![The Cahaba River, credit USFWS](https://www.fws.gov/sites/default/files/2021-08/cahaba%20river.jpg)
+![Rare aquatic Cahaba lily. Oh no... my link is broken](https://cahabarivrsociety.org/wp-content/uploads/2011/05/lily-1-300x225.jpg)
+
+## Resources
+[Cahaba River Society](https://cahabariversociety.org/about-the-cahaba-river/cahaba-river-biodiversity/) 
+[US Fish & Wildlife Service](https://www.fws.gov/refuge/cahaba-river/about-us#:~:text=The%20Cahaba%20River%20itself%20stretches,nowhere%20else%20in%20the%20world.)
+[Cahaba River Map](https://www.fws.gov/refuge/cahaba-river/map)
+
+## Code
+```
+library(leaflet)
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -87.0643894, lat = 33.0747889, popup = "Cahaba River National Wildlife Refuge")
+```
+## Tree Basal Area (Still working on it)
+
+
+```{r}
+  dbh <- c(35, 23, 12, NA, 8)
+  plot_area <- c(0.1)
+Function = function(dbh, plot_area){
+  basal_area = ((3.14159265359/4*10000)*dbh^2)
+return(basal_area)
+}
+```
+=======
+>>>>>>> 7e59219f60a2dbfeea4fe65e2495aa5c3429893b
