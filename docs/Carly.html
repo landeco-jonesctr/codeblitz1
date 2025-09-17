@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Carly" />
 
+<meta name="date" content="2025-09-09" />
 
-<title>Pasternak1</title>
+<title>Carly’s Favorite Field Site</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -32,6 +34,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -290,59 +301,56 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Pasternak1</h1>
+<h1 class="title toc-ignore">Carly’s Favorite Field Site</h1>
+<h4 class="author">Carly</h4>
+<h4 class="date">2025-09-09</h4>
 
 </div>
 
 
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ## Biography</p>
-<p>I am a RaMP Fellow in the Landscape Ecology Lab! I am NOT from
-Philadelphia.</p>
+<div id="name" class="section level1">
+<h1>Name</h1>
+<p>Carly Ramacher</p>
+<div id="biography" class="section level2">
+<h2>Biography</h2>
+<p>I am a seasonal tech in the Landscape Ecology lab at the Jones
+Center. Prior to this position I was an undergraduate studying
+Environmental Biology at Washington University in St. Louis. I also
+worked at the school’s field station, Tyson Research Center, as a field
+technician censusing trees.</p>
+</div>
 <div id="favorite-field-site" class="section level2">
 <h2>Favorite field site</h2>
-<p>One amazing place I’d visited during orientation was the Cahaba River
-in Alabama. - The Cahaba River is the longest free-flowing river in AL
-at approx. 200 miles. - The Cahaba Rvvr is home to the endangered Cahaba
-Lily. - The River is home to 13 endemic plant and animal species.</p>
+<p>Tyson Research Center on the Moon</p>
 </div>
 <div id="photo-gallery" class="section level2">
 <h2>Photo gallery</h2>
-<pre><code>![The Cahaba River, credit USFWS](https://www.fws.gov/sites/default/files/2021-08/cahaba%20river.jpg)</code></pre>
-<div class="float">
-<img
-src="https://cahabarivrsociety.org/wp-content/uploads/2011/05/lily-1-300x225.jpg"
-alt="Rare aquatic Cahaba lily. Oh no… my link is broken" />
-<div class="figcaption">Rare aquatic Cahaba lily. Oh no… my link is
-broken</div>
-</div>
+<p>!(<a href="https://jonathanmyers.smugmug.com/Ozarks/i-RjNsk2k/A"
+class="uri">https://jonathanmyers.smugmug.com/Ozarks/i-RjNsk2k/A</a>)
+!(<a href="https://jonathanmyers.smugmug.com/Ozarks/i-Wtk8tJw"
+class="uri">https://jonathanmyers.smugmug.com/Ozarks/i-Wtk8tJw</a>) !(<a
+href="https://jonathanmyers.smugmug.com/Ozarks/i-txncrPM"
+class="uri">https://jonathanmyers.smugmug.com/Ozarks/i-txncrPM</a>) !(<a
+href="https://jonathanmyers.smugmug.com/Ozarks/i-rfTTQZv/A"
+class="uri">https://jonathanmyers.smugmug.com/Ozarks/i-rfTTQZv/A</a>)</p>
 </div>
 <div id="resources" class="section level2">
 <h2>Resources</h2>
-<p><a
-href="https://cahabariversociety.org/about-the-cahaba-river/cahaba-river-biodiversity/">Cahaba
-River Society</a> <a
-href="https://www.fws.gov/refuge/cahaba-river/about-us#:~:text=The%20Cahaba%20River%20itself%20stretches,nowhere%20else%20in%20the%20world.">US
-Fish &amp; Wildlife Service</a> <a
-href="https://www.fws.gov/refuge/cahaba-river/map">Cahaba River
-Map</a></p>
+<p>!(<a href="https://tyson.wustl.edu/"
+class="uri">https://tyson.wustl.edu/</a>) !(<a
+href="https://myersecologylab.com/projects/"
+class="uri">https://myersecologylab.com/projects/</a>)</p>
 </div>
-<div id="code" class="section level2">
-<h2>Code</h2>
-<pre><code>library(leaflet)
+<div id="map-of-field-site" class="section level2">
+<h2>Map of field site</h2>
+<pre class="r"><code>library(leaflet)
+
 leaflet() %&gt;% 
   addTiles() %&gt;%     
-  addMarkers(lng = -87.0643894, lat = 33.0747889, popup = &quot;Cahaba River National Wildlife Refuge&quot;)</code></pre>
+  addMarkers(lng = -90.56056, lat = 38.52611, popup = &quot;Tyson Research Center&quot;)</code></pre>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-056b4d4655c62a0802a2" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-056b4d4655c62a0802a2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[38.52611,-90.56056,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Tyson Research Center",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[38.52611,38.52611],"lng":[-90.56056,-90.56056]}},"evals":[],"jsHooks":[]}</script>
 </div>
-<div id="tree-basal-area-still-working-on-it" class="section level2">
-<h2>Tree Basal Area (Still working on it)</h2>
-<pre class="r"><code>  dbh &lt;- c(35, 23, 12, NA, 8)
-  plot_area &lt;- c(0.1)
-Function = function(dbh, plot_area){
-  basal_area = ((3.14159265359/4*10000)*dbh^2)
-return(basal_area)
-}</code></pre>
-<p>======= &gt;&gt;&gt;&gt;&gt;&gt;&gt;
-7e59219f60a2dbfeea4fe65e2495aa5c3429893b</p>
 </div>
 
 

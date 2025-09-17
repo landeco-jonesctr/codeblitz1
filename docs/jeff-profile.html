@@ -40,7 +40,7 @@
 <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
 <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
 <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
-<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -281,6 +281,12 @@ $(document).ready(function () {
 <li>
   <a href="Pasternak1.html">Tristen</a>
 </li>
+<li>
+  <a href="Carly.html">Carly</a>
+</li>
+<li>
+  <a href="tw_1.html">Tanner</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -367,8 +373,8 @@ Forest</a></li>
 leaflet() %&gt;% 
   addTiles() %&gt;%     
   addMarkers(lng = -105.005, lat = 39.010, popup = &quot;Pike San Isabel National Forest&quot;)</code></pre>
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-a953eaa5b51b7fb68f9a" style="width:672px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-a953eaa5b51b7fb68f9a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[39.01,-105.005,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Pike San Isabel National Forest",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[39.01,39.01],"lng":[-105.005,-105.005]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-004a262e5d4a01a8233d" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-004a262e5d4a01a8233d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[39.01,-105.005,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Pike San Isabel National Forest",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[39.01,39.01],"lng":[-105.005,-105.005]}},"evals":[],"jsHooks":[]}</script>
 <p>Create a function to calculate basal area using data from the
 site</p>
 <pre class="r"><code># Function to calculate total basal area in m^2 ha^-1
