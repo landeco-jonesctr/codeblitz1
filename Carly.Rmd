@@ -9,7 +9,7 @@ output: html_document
 Carly Ramacher
 
 ## Biography
-I am a seasonal technician in the Landscape Ecology lab at the Jones Center. Prior to this position I was an undergraduate studying Environmental Biology at Washington University in St. Louis. I also worked at the school's field station, Tyson Research Center, as a field technician censusing trees.
+I am a seasonal tech in the Landscape Ecology lab at the Jones Center. Prior to this position I was an undergraduate studying Environmental Biology at Washington University in St. Louis. I also worked at the school's field station, Tyson Research Center, as a field technician censusing trees.
 
 ## Favorite field site
 Tyson Research Center
