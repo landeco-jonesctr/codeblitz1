@@ -1,0 +1,53 @@
+---
+title: "TW"
+author: "Tanner"
+date: "2025-09-09"
+output: html_document
+---
+
+# Name
+Tanner Warren
+
+## Bio
+Tanner is a Research Technician II in the Landscape Ecology lab specializing in TLS and all associated field work.A member of the Landscape Ecology lab since it's inception, he has worked in Forest Ecology, Herpetology, Conservation, and Plant Ecology.
+![Tanner in his natural habitat](https://lab.jonesctr.org/wp-content/uploads/2024/07/DSC6919-1096x1536.jpg)
+
+## Favorite field site
+St. Marks National Wildlife Refuge
+
+This 83,000 acre refuge spans parts of Wakulla, Jefferson, and Taylor counties in Florida. It is popular for birding, fishing, hiking, and other outdoor recreation. A flamingo once set up residence here following a major hurricane. It also has served as an off-site research area for the Plant Ecology lab. Check out the lighthouse that was originally built in 1831!
+Species to see:
+   * merican alligator
+   * Bald eagle
+   * Manatee
+   
+## Photo gallery
+![St. Marks Lighthouse (Source: Michael Maxwell, USFWS)](https://www.fws.gov/sites/default/files/2022-03/st-marks-lighthouse-st-marks-nwr-mike-maxwell.jpg)
+
+![Flamingo at St. Marks NWR (Source: Don Morrow)](https://stmarksrefuge.org/wp-content/uploads/2020-02-12-Johnstone1-960x512.jp)
+## Resources
+1. [Interactive Map of St. Marks NWR](https://www.fws.gov/refuge/st-marks/map)
+
+2. [Trail Information](https://www.fws.gov/refuge/st-marks/visit-us/trails)
+
+3. ["Pinky" the Flamingo Article](https://www.tallahassee.com/story/news/local/2023/09/01/group-of-flamingos-lands-at-st-marks-wildlife-refuge-after-hurricane-idalia-pinky-florida/70737175007/)
+
+## Map of field site
+```{r warning=FALSE}
+library(leaflet)
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = -84.1627849, lat = 30.0975008 , popup = "St. Marks National Wildlife Refuge")
+```
+
+## code examples
+
+dbh = c(35, 23, 12, NA, 8) # in cm
+plot_area = 0.1 #in ha
+  
+```
+# myFunction = still to be written
+
+```
+
+
