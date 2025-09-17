@@ -171,15 +171,45 @@ myFunction = function(dbh, plot_area) {
 
 ## Instructions -- Homework Part 2:
 
-**Within one week of today's exercise** complete the following tasks with an assigned partner.
+Now that you’ve practiced committing to your own branch, we will try a common workflow:
+Editing someone elses code 
 
-Now that you’ve practiced committing to your own branch, we will try a common workflow: **pull requests** (PRs). A pull request is how you propose changes to a shared repository so others can review and approve them before merging back into the main branch.
+1. Pull the new merged repo onto your computer
+  - If you're on a new computer or want to start fresh, see instructions above 
+  about how to clone the current repo as you did in part 1.
+  - If you're using the same computer and still have the old files, open Codeblitz1.Rproj
+    - Switch back to the main local branch 
+    - Use **PULL** to update your local copy of the main branch to the current copy
+    ![](img/part2-pull.jpg)
+    - **Note:** You may get an error about some files being overwritten. This means
+    you made some local changes to unmerged files on the repo. Find the files or
+    directories mentioned and delete them. Don’t worry they will be restored to
+    the consensus version when you sync! You probably have to delete a 
+    ‘site_libs’ folder if you used the knit function at some point.
+    - You may need to click the refresh button to see the files as they come in 
+     ![](img/part2-merge.jpg)
+2.	Once everything is synchronized, switch back to your personal branch
+3.  Your personal branch will need to get the latest updates from the main branch.
+To do this, Go to the Terminal tab and type `git merge main`
+    ![](img/part2-refresh.jpg)
+  -	Your branch is now up-to-date with the main branch and ready to suggest new changes!
+4. Open the `.Rmd` of your assigned profile from the files list,  and make some edits!
 
--   Clone the repository and make a new branch
--   Correct the false information in your partners `Biography`
--   Correct the typo in your partners bulleted list in `Favorite field site`
--   Correct the broken link in the `Photo gallery`.
--   Commit your changes and push the repo back to Github
--   Test their `R` code for basal area in a separate window. Does it work for you? If not, suggest an edit
--   Open a pull request on GitHub. You’ll see a banner prompting you to “Compare & pull request.” Click it. Write a short description of your change and submit the PR back to the main lab repo.
--   Review someone else's PR. Go to the lab repo \> Pull Requests tab. Review your partners PR to your profile, read it, and leave a short comment.
+| Edit Assignments                       |
+|----------------------------------------|
+| Khanh ↔ Tanner                         |
+| Nicole ↔ Morne                         |
+| Leah ↔ Lain                            |
+| Carly ↔ Nathan                         |
+| Jeff edits → Jingting, Jingting edits → Tristen, Tristen edits → Jeff     |
+  
+5.	Correct typos and incorrect statements, and fix any broken links or code.
+Contact your partner if you are unsure about how to fix anything!
+1.	Save your changes to the file 
+1. Commit your changes when you are done (click the Stage checkbox next to the
+`.Rmd` file, and click Commit), and leave a descriptive comment
+1. Push your branch to the repository
+1. Login to github and be sure to submit a pull request from your updates! 
+You may have to visit our organizational profile: [https://github.com/landeco-jonesctr](https://github.com/landeco-jonesctr)
+1.	To exit the git repository, go to File and click “Close Project”
+  ![](img/part2-closeproj.jpg)
