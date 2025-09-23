@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Nathan Moore
 ## Biography
-I am a Ph.D. student in the Forest and Fire Ecology Lab at Auburn University and the Landscape Ecology Lab at the Jones Center at Ichauway, co-advised by Drs. Heather Alexander and Jeffery Cannon. My research examines understory vegetation and fuel dynamics, with broader interests in how disturbances shape ecosystem services. Past work has included soil carbon storage, woody plant encroachment, and pyric herbivory. Outside of research, I enjoy aquaponics and maintaining aquariums. I am also a part owner of the Utah Jazz
+I am a Ph.D. student in the Forest and Fire Ecology Lab at Auburn University and the Landscape Ecology Lab at the Jones Center at Ichauway, co-advised by Drs. Heather Alexander and Jeffery Cannon. My research examines understory vegetation and fuel dynamics, with broader interests in how disturbances shape ecosystem services. Previously, some of my work has included soil carbon storage, woody plant encroachment, and pyric herbivory. Outside of research, I enjoy aquaponics and maintaining aquariums. I am also a part owner of the Utah Jazz.
 
 
 ## Favorite field site
