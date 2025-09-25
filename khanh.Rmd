@@ -5,7 +5,7 @@ output: html_document
 
 ## Biography
 
-I am a Geospatial Analyst in the Landscape Ecology lab!
+I am a Geospatial Analyst in the Landscape Ecology lab! TW wuz here! Fixed a typo in the map caption and did not notice any additional errors.
 
 ## Favorite field site
 
@@ -24,7 +24,7 @@ library(leaflet)
 
 leaflet() %>% 
   addTiles() %>%     
-  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Barlett Experimental Forest")
+  addMarkers(lng = -71.297210, lat = 44.055972, popup = "Bartlett Experimental Forest")
 ```
 
 ## Resources
