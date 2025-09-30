@@ -9,7 +9,7 @@ Jeffery Cannon
 
 ## Biography
 
-I am a podiatrist focusing on research in hurricane ecology, longleaf pine restoration, prescribed fire, and fostering the adoption of technology for conservation using lidar. I especially enjoy blending research and collaboration with land managers to solve practical conservation challenges.
+I am a landscape ecologist focusing on research in hurricane ecology, longleaf pine restoration, prescribed fire, and fostering the adoption of technology for conservation using lidar. I especially enjoy blending research and collaboration with land managers to solve practical conservation challenges.
 
 Outside of work, I enjoy staying active outdoors with backpacking, hiking, tennis, and pickleball. I am an avid reader of nonfiction, always looking to learn from science, math, business, and history, and am engaged in politics and civic engagement in my adopted hometown of Albany, GA.
 
@@ -21,7 +21,7 @@ Outside of work, I enjoy staying active outdoors with backpacking, hiking, tenni
 
 My favorite field site is the Mixed Conifer Forest Dynamics Plot, a large research plot located within Pike San Isabel National Forest near Colorado Springs, CO. This site was home to my first independent postdoc project and continues to inspire my work.
 
-FReatures:
+Features:
 
 -   Ponderosa pine, Douglas-fir, and aspen
 -   Beautiful rolling mountains, sunsets, views, and elk sightings
