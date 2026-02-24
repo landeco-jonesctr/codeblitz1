@@ -28,7 +28,10 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-##Talladega
-##Favorite field site
-#Talladega
+# Favorite field site
+
+## Talladega
+
 mostly pines, hilly topography
+
+![Talladega National Forest](img/talladega.jfif)
