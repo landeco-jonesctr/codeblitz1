@@ -1,0 +1,37 @@
+---
+title: "Zark's Happy Place"
+author: "Zark Zarling"
+date: "2026-05-26"
+output: word_document
+---
+
+## Biography
+
+I am a little technician creature for the landscape ecology lab, they keep me locked in the fume hood
+
+## Favorite Camping Spot
+
+The Feathers (Vantage, WA)
+
+## Photo gallery
+
+![*Source: Flickr*](https://www.flickr.com/photos/lifeinmotion84/15586968555)
+
+![*Source: SummitPost*](https://th.bing.com/th/id/R.b00df03653d3e3313672fe30867c47ec?rik=7Q27X1EBPqouCw&riu=http%3a%2f%2fwww.beautifulwashington.com%2fimages%2ffrenchman-coulee-quincy-eastern-washington%2ffrenchman-coulee-trail-67.jpg&ehk=jNqLzFGRMFOwOtC2JpucRNvKx2pFWbyH2Ng9PM1RQEU%3d&risl=&pid=ImgRaw&r=0)
+
+## Map of field site
+
+```{r warning=FALSE}
+library(leaflet)
+
+leaflet() %>% 
+  addTiles() %>%     
+  addMarkers(lng = 47.028, lat = -119.965, popup = "The Feathers")
+# 47°01'32.26"N 119°57'58.04"W
+```
+
+## Resources
+
+[Washington Trails Association](https://www.wta.org/go-hiking/hikes/frenchman-coulee)
+
+[WA DNR](https://wa100.dnr.wa.gov/columbia-basin/frenchman-coulee)
